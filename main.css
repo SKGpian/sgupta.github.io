@@ -1,0 +1,129 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: open sans;
+}
+
+body{
+	background: #b8b894;
+}
+
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+	/*background: white;*/
+}
+.head{
+	background: black;
+	height: 100%;
+
+	/*position: relative;*/
+}
+.head::after{
+	content: " ";
+	clear: both;
+	display: block;
+}
+
+
+.navi{
+	float: right;
+ }
+
+.logo{
+	float: left;
+}
+
+.navi ul li{
+	display: inline-block;
+}
+
+a{
+	padding: 10px 20px;
+	text-decoration: none;
+	color: #1a1a00;
+	line-height: 3.2;
+	color: white;
+}
+
+
+.navi ul li a:hover{
+	color: #4d79ff;	 
+	text-decoration: underline;
+}
+
+.image{
+	margin: 0px 85px;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.background{
+	max-width: 100%;
+	max-height: 100%;
+}
+.foot{
+	background: black;
+	text-align: center;
+	color: white;
+	margin: 10px;
+	padding: 15px;
+}
+.me{
+	position: absolute;
+	left: 680px;
+	top: 240px;
+	border: 5px solid white;
+	border-radius: 20px;
+}
+.me:hover{
+	border:5px solid black;
+}
+.name{
+	position: absolute;
+	top: 470px;
+	left:630px;
+	
+	display:inline-block;
+    font-family: 'Noto Serif', serif;
+	font-weight: bold;
+	font-size: 300%;
+}
+.name:hover{
+	font-size: 305%;
+}
+.slogo{
+	height: 55px;
+	width: 55px;
+	border-radius: 10px;
+
+}
+
+.social ul li{
+	display: inline-block;
+}
+.social{
+	position: absolute;
+	top: 545px;
+	left: 560px;
+}
+.slogo:hover{height: 65px;
+	width: 65px;
+
+}
+.mail{
+	position: absolute;
+	top:620px;
+	left: 675px;
+	height: 30px;
+	width: 40px;
+}
+
+.mail:hover{
+	filter: brightness(130%);
+}
+.maild{
+	position: absolute;
+	top: 626px;
+	left: 723px;
+}
