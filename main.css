@@ -31,6 +31,29 @@ body{
 	float: right;
  }
 
+.Home:hover{
+	/*border:2px solid white;*/
+	display: inline;
+	animation-name: anime;
+	animation-duration: 0.9s;
+	
+	animation-fill-mode: forwards;
+}
+
+.a:hover{
+   animation-name: tc;
+   animation-duration: 1s;
+}
+@keyframes anime{
+	from{ background-color: black}
+	to{background-color: white}
+	from{color: white}
+	to{color: black}
+}
+
+
+
+
 .logo{
 	float: left;
 }
@@ -50,7 +73,6 @@ a{
 
 .navi ul li a:hover{
 	color: #4d79ff;	 
-	text-decoration: underline;
 }
 
 .image{
