@@ -30,6 +30,22 @@ body{
 	float: right;
  }
 
+ .Home:hover{
+	display: inline;
+	animation-name: anime;
+	animation-duration: 0.9s;
+	
+	animation-fill-mode: forwards;
+}
+
+
+@keyframes anime{
+	from{ background-color: black}
+	to{background-color: white}
+	from{color: white}
+	to{color: black}
+}
+
 .logo{
 	float: left;
 }
@@ -48,7 +64,7 @@ a{
 
 .navi ul li a:hover{
 	color: #4d79ff;	 
-	text-decoration: underline;
+	
 }
 .image{
 
