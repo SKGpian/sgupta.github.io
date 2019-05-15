@@ -34,7 +34,7 @@ body{
 .Home:hover{
 	display: inline;
 	animation-name: anime;
-	animation-duration: 0.9s;
+	animation-duration: 0.6s;
 	
 	animation-fill-mode: forwards;
 }
